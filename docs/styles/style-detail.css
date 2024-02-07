@@ -1,0 +1,247 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text: #000000;
+    --color-red: #de5b39;
+    --color-pink: #d45474;
+    --color-background: #f6f5f3;
+    --color-blue: #51a6da;
+    --color-green: #57ab95;
+    --color-orange: #fca602;
+}
+
+/* **** */
+/* FONT */
+/* **** */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Smokum&display=swap');
+
+
+/* **** */
+/* BODY */
+/* **** */
+
+body {
+    /* img werkt niet */
+    background: url('./images/oldpaper.jpg') repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--color-background);
+    margin: 1em;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        "section5";
+    height: 100vh;
+}
+
+
+
+@media (min-width: 601px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "section1 section2"
+            "section1 section3"
+            "section4 section4"
+            "section5 section5";
+    }
+}
+
+
+/* ** */
+/* H1 */
+/* ** */
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: .3em solid var(--color-orange);
+    border-radius: 1em;
+    position: relative;
+    padding: .5em;
+    margin: 1em;
+    grid-area: section1;
+
+
+}
+
+h1 {
+    white-space: pre-line;
+    color: var(--color-blue);
+    font-family: 'Smokum', serif;
+    font-size: 3em;
+    margin: 0;
+
+
+
+}
+
+.me::before {
+    content: '';
+    position: absolute;
+    top: -.8em;
+    left: -.8em;
+    right: -.8em;
+    bottom: -.8em;
+    border: .3em dotted var(--color-green);
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.me img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 6em;
+    height: 6em;
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        white-space: normal;
+    }
+
+    .me {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .me img {
+        order: -1;
+    }
+}
+
+/* ******** */
+/* ABOUT ME */
+/* ******** */
+
+section:nth-of-type(2) {
+    border: 0.2em solid var(--color-green);
+    padding: 1em;
+    margin: 1em;
+    position: relative;
+    grid-area: section2;
+}
+
+section:nth-of-type(2)::after {
+    content: '';
+    position: absolute;
+    top: -.8em;
+    left: -.8em;
+    right: -.8em;
+    bottom: -.8em;
+    border: 0.2em solid var(--color-orange);
+    box-sizing: border-box;
+}
+
+section:nth-of-type(2) h2 {
+    color: var(--color-pink);
+    margin: 0;
+    font-family: 'Smokum', serif;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+
+}
+
+.vraag,
+.antwoord {
+    width: 50%;
+    box-sizing: border-box;
+    padding: .5em;
+    font-family: 'Lato', sans-serif;
+}
+
+.vraag {
+    color: var(--color-pink);
+}
+
+/* ********************** */
+/* WHAT MUSIC MEANS TO ME */
+/* ********************** */
+
+
+section:nth-of-type(3) {
+    grid-area: section3;
+}
+
+section:nth-of-type(3) h2 {
+    color: var(--color-pink);
+    margin: 1em;
+    font-family: 'Smokum', serif;
+}
+
+p {
+    border: .2em solid var(--color-orange);
+    border-radius: 1em;
+    padding: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ***** */
+/* QUOTE */
+/* ***** */
+
+section:nth-of-type(4) {
+    grid-area: section4;
+    grid-column: span 2;
+}
+
+h3 {
+    color: var(--color-red);
+    font-size: 2em;
+    font-family: 'Smokum', serif;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+/* ********** */
+/* TOP SONGS  */
+/* ********** */
+
+section:nth-of-type(5) {
+    grid-area: section5;
+}
+
+section:nth-of-type(5) h2 {
+    color: var(--color-pink);
+    margin: 1em;
+    font-family: 'Smokum', serif;
+}
+
+ol {
+    border: 0.2em solid var(--color-orange);
+    border-radius: 1em;
+    padding: 1em;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+ol::before {
+    content: '';
+    position: absolute;
+    top: .25em;
+    left: .25em;
+    right: .25em;
+    bottom: .25em;
+    border: .2em solid var(--color-green);
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+li {
+    margin: 1em;
+}

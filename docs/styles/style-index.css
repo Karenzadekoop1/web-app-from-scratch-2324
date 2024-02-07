@@ -1,0 +1,52 @@
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+    --color-text: #111;
+
+}
+
+/* **** */
+/* FONT */
+/* **** */
+/* werkt niet */
+@font-face {
+    font-family: 'MexicanCity';
+    src: url('/fonts/MexicanCity.ttf') format('ttf'),
+        url('/fonts/MexicanCity.otf') format('otf');
+}
+
+/* **** */
+/* BODY */
+/* **** */
+
+h1 {
+    font-family: 'MexicanCity' , sans-serif;
+}
+
+
+/* *********** */
+/* PLAY BUTTON */
+/* *********** */
+button {
+    position: relative;
+    width: 3.5em;
+    height: 3.5em;
+    background-color: #1db954;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+/* sizes nog bepalen */
+/* kleur veranderen */
+
+button::before {
+    content: '';
+    position: absolute;
+    left: 1.6em;
+    top: 1.3em;
+    border-style: solid;
+    border-width: 0.7em 0 0.7em 1.2em;
+    border-color: transparent transparent transparent white;
+}
