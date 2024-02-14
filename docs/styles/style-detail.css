@@ -153,7 +153,7 @@ header p {
     aspect-ratio: 1 / 1;
     background-color: var(--color-cdbackground);
     border-radius: 50%;
-    border: transparent;
+    border: 2px solid var(--color-border);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -170,15 +170,14 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    max-width: 80%;
-    min-width: 1%;
-    max-height: 100%;
-    min-height: 1%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
 
 }
 
@@ -192,6 +191,8 @@ ul li {
     margin: 0 5px;
     position: absolute;
     cursor: pointer;
+    align-self: center;
+    justify-self: center;
 }
 
 ul li h2 {
@@ -199,27 +200,30 @@ ul li h2 {
 }
 
 ul li:nth-child(1) {
-    transform: rotate(0deg) translate(150%) rotate(0deg);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 ul li:nth-child(2) {
-    transform: rotate(90deg) translate(150%) rotate(-90deg);
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
 }
 
 ul li:nth-child(3) {
-    transform: rotate(180deg) translate(150%) rotate(-180deg);
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 ul li:nth-child(4) {
-    transform: rotate(270deg) translate(150%) rotate(-270deg);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 
 
-li.playing h2,
-li.playing p {
-    text-shadow: 1px 1px 2px rgba(255, 45, 45, 1);
-}
+
+
+
 
 audio {
     display: none;

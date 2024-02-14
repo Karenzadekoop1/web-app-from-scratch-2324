@@ -3,6 +3,7 @@
 async function addSongs() {
     const response = await fetch("./datasongs.json");
     const songsInfoJSON = await response.json();
+
     const songList = document.getElementById("songlist");
     const audioPlayer = document.getElementById("audioPlayer");
     const cdBackground = document.querySelector(".cd");
@@ -15,7 +16,6 @@ async function addSongs() {
         audioPlayer.src = "";
         audioPlayer.pause();
 
-        // Remove "playing" class from the previous element
         if (currentPlayingElement) {
             currentPlayingElement.classList.remove("playing");
             console.log("Removed 'playing' class");
@@ -33,7 +33,6 @@ async function addSongs() {
         const artistName = song.artist;
         const songUrl = song.preview_url;
         const coverUrl = song.coverUrl;
-
 
         const songElement = document.createElement("li");
         const hgroup = document.createElement("hgroup");
@@ -85,6 +84,6 @@ async function addSongs() {
             console.log("Audio ended");
         }
     });
-    
+
 }
 addSongs()

@@ -77,7 +77,7 @@ de foto bleef maar niet veranderen dus ik ging even nakijken wat het probleem wa
 <img src="/README-img/cove foto error code.png" width="300" alt="code">
 <img src="/README-img/cove foto error code.png" width="300" alt="error code">
 
-Ik kreeg veel error van de cover foto omdat "deze niet available is" 
+Ik kreeg veel error van de cover foto omdat "deze niet available is". 
 
 ## Dag 7 
 Ik liet dat probleem even aan de kant...
@@ -85,7 +85,7 @@ Ik heb gerealiseert dat mijn design helemaal niet responsive was en op mobiele v
 
 <img src="/README-img/foto error responsiveness.png" width="300" alt="mobile version">
 
-Dus veel van mijn ochtend werd besteed aan px,em,vw etc te veranderen en steeds blijven testen. Ik heb daarna veel met media queries moeten werken om deze er een beetje fatsoenlijk uit te laten zien
+Dus veel van mijn ochtend werd besteed aan px,em,vw etc te veranderen en steeds blijven testen. Ik heb daarna veel met media queries moeten werken om deze er een beetje fatsoenlijk uit te laten zien.
 
 
 
@@ -97,16 +97,16 @@ Ik heb gisteren niks kunnen maken met mijn media queries.. het werd me gewoon ie
 
 Ik ging proberen te werken met de aspect ratioen veel procenten
 Ik merkte ook dat ik heel veel extra elementen had die over elkaar waren e mij in de weg zat van designen. 
-Het is gelukt met percentages en procenten om het product responsive te maken alleen de ul niet... dus ipv de tranlate code die ik doe ga ik dit even met eem grid oplossen
+Het is gelukt met percentages en procenten om het product responsive te maken alleen de ul niet... dus ipv de tranlate code die ik doe ga ik dit even met eem grid oplossen.
 
 <img src="/README-img/ratio.png" width="300" alt="code">
 <img src="/README-img/translate.png" width="300" alt="code">
 <img src="/docs/README-img/media querys.png" width="300" alt="code">
 
 
-Mijn enige struggle on is dat ik de coverfoto van de cd wil veranderen wanner het liedje speelt.. alleen in krijg steeds de warning dat de coverurl niet available is. Ik weet niet hoe ik dit verder moet oplossen dus heb het gewoon zo gelaten
+Mijn enige struggle on is dat ik de coverfoto van de cd wil veranderen wanner het liedje speelt.. alleen in krijg steeds de warning dat de coverurl niet available is. Ik weet niet hoe ik dit verder moet oplossen dus heb het gewoon zo gelaten.
 
-
+nou.... ik had gewoon de verdeerde file gelinked... het werkt weer. 
 
 ## Conclusie
 Het duurde mij echt heel lang om iets uit te voeren omdat ik veel dingen niet wist en steeds fouten maakte en dingen vaak gewoon niet werkte, of ik wilde gewoon helemaal opnieuw beginnen. Dit was heel frustrerend en ik ging mezelf veel vergelijken met de anderen in de klas. Maar heb een beetje gerealiseerd dat ik hier gewoon iets meer tijd in moet stoppen en vooral mezelf niet met anderen vergelijken. 
@@ -118,10 +118,12 @@ Mijn eindproduct is een cd met classic salsa liedjes erop. Ik ben een grote van 
 
 Je maakt de "cd-case" open en kan de liedjes aanklikken om deze te laten afspelen. als je dan vervolgens op de knop in het midden van de cd drukt stopt het liedje. 
 
+Features:
+- when you click on the song the songs plays and displays the albumcover
 
-
-
-
+<img src="/README-img/eind1.png" width="300" alt="eindproduct">
+<img src="/README-img/eind2.png" width="300" alt="eindproduct">
+<img src="/README-img/eind3.png" width="300" alt="eindproduct">
 
 
 ## Bronnen

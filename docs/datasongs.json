@@ -2,22 +2,27 @@
     "songs": [{
             "title": "Tu Amor Me Hace Bien",
             "artist": "Marc Anthony",
-            "preview_url": "https://p.scdn.co/mp3-preview/ddbc306db88bc6e1324c019a0783cf9ef05c8cac?cid=d8a5ed958d274c2e8ee717e6a4b0971d"
+            "preview_url": "https://p.scdn.co/mp3-preview/ddbc306db88bc6e1324c019a0783cf9ef05c8cac?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac1b009b3ad89a504b927acf"
         },
         {
             "title": "La Vida Es Un Carnaval",
             "artist": "Celia Cruz",
-            "preview_url": "https://p.scdn.co/mp3-preview/2c0cc2d968c32bd1bebff992a0e85f082221fb2b?cid=d8a5ed958d274c2e8ee717e6a4b0971d"
+            "preview_url": "https://p.scdn.co/mp3-preview/2c0cc2d968c32bd1bebff992a0e85f082221fb2b?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733f265b6afc76d0f74d35df8e"
         },
         {
             "title": "La Gozadera",
-            "artist": "Gennte De Zona, Marc Anthony",
-            "preview_url": "https://p.scdn.co/mp3-preview/e204f946f5768498c14ea6ed30b58854ee2dbbea?cid=d8a5ed958d274c2e8ee717e6a4b0971d"
+            "artist": "Gente De Zona, Marc Anthony",
+            "preview_url": "https://p.scdn.co/mp3-preview/e204f946f5768498c14ea6ed30b58854ee2dbbea?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730e674e81c59a2308c1b4b660"
+
         },
         {
             "title": "Bailando",
             "artist": "Enrique Iglesias",
-            "preview_url": "https://p.scdn.co/mp3-preview/515bfd39a196086923fa34dd7ecf35ed29704f9b?cid=d8a5ed958d274c2e8ee717e6a4b0971d"
+            "preview_url": "https://p.scdn.co/mp3-preview/515bfd39a196086923fa34dd7ecf35ed29704f9b?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+            "coverUrl": "https://i.scdn.co/image/ab67616d0000b273443c56aa70db13cdafd4cfe7"
         }
     ]
 }
