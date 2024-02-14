@@ -1,0 +1,9 @@
+{
+    "fistName": "Karenza",
+    "lastName": "de Koop",
+    "avatar_url": "./images/me.jpg",
+    "age": 21,
+    "city": "Amsterdam",
+    "hobbies": ["Dansen", "Yoga", "Lezen"],
+    "truthsAndLies": ["Ik heb een lichte cola/pepsi verslaving", "Kan me dag niet fatsoenlijk beginnen zonder koffie", "ik sluit mijn dag altijd af met een kopje thee"]
+}

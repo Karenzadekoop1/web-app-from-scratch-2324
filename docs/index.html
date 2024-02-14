@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,31 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web App From Scratch 23-24 Latin Music</title>
-    <link rel="stylesheet" href="./styles/style-index.css">
+    <link rel="stylesheet" href="./styles/style-detail.css">
+
 </head>
 
 <body>
-    <h1>Karenza</h1>
-    <div class="line-with-peaks"></div>
-    <a href="details.html"><button></button></a>
+
+    <article class="menu">
+        <header class="menu-cover">
+            <h1>Salsa</h1>
+            <p>Los classicos</p>
+            <img src="images/salsa.png" alt="couple dancing">
+        </header>
+
+        <main class="cd">
+
+            <!-- Bron: "how do I design a cd in css" chat cpt -->
+                <button class="center-hole-button"> || </button>
+                <ul id="songlist">
+                </ul>  
+        </main>
+        <audio id="audioPlayer" controls></audio>
+
+        </audio>
+    </article>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
