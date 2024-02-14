@@ -110,6 +110,7 @@ nou.... ik had gewoon de verdeerde file gelinked... het werkt weer.
 
 ## Conclusie
 Het duurde mij echt heel lang om iets uit te voeren omdat ik veel dingen niet wist en steeds fouten maakte en dingen vaak gewoon niet werkte, of ik wilde gewoon helemaal opnieuw beginnen. Dit was heel frustrerend en ik ging mezelf veel vergelijken met de anderen in de klas. Maar heb een beetje gerealiseerd dat ik hier gewoon iets meer tijd in moet stoppen en vooral mezelf niet met anderen vergelijken. 
+Natuurlijk heb ik ook heel veel geleerd over code... dingen dat ik helemaal niet wist dat het mogelijk was.
 Ik ben best trots op mijn product en kan niet wachten om meer kennis hierover te krijgen om volgende keer veel toffere producten te maken. 
 
 ## Eindproduct
