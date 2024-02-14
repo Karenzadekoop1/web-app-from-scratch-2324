@@ -127,6 +127,10 @@ Features:
 <img src="/README-img/eind3.png" width="300" alt="eindproduct">
 
 
+## For later
+Ik wil graag dat de list elementen verdijnen als er een liedje speelt. het is iets te laat geworden vandaag dus ik laat dit wel voor als ik meer tijd heb.
+
+
 ## Bronnen
 - Javascript & jquery jon dukket
 - Bron: "how do I design a cd in css" chat cpt
