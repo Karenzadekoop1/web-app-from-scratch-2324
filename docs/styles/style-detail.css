@@ -214,6 +214,8 @@ ul li:nth-child(4) {
     transform: rotate(270deg) translate(150%) rotate(-270deg);
 }
 
+
+
 li.playing h2,
 li.playing p {
     text-shadow: 1px 1px 2px rgba(255, 45, 45, 1);

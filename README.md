@@ -18,7 +18,7 @@ Ik had heel veel zin om iets tofs te maken
 ## Dag 1
 Maandag zij we begonnen met de eerste les en idee generatie. Het idee was om een persoonlijke app te maken en een groep app. Met de groep app ging het idee best soepel maar met de persoonlijke nog wat stroever. Toen ik dacht aan een persoonlijke app dacht ik dat het over mezelf moest gaan dus ben ik met html en css wat in elkaar gaan zetten. Ik dacht ik maak een "menu" over mezelf en muziek (omdat ik dat heel leuk vind)
 
-<img src="/docs/README-img/ideeen.png" width="300" alt="schetsej van ideeen">
+<img src="/README-img/ideeen.png" width="300" alt="schetsej van ideeen">
 
 Maar we moesten alles van git/ github enzo ook allemaal regelen. Dat ging helemaal niet zo goed en ik begon meteen even te pannieken. Na de les heb ik eingelijk heel veel tijd verspilt om op te zoeken hoe dat allemaal werkt en wat dat allemaal inhoud. 
 https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
@@ -30,21 +30,21 @@ Ik ging door aan mijn HTML en CSS van mijn idee. Ik was heel erg zoekend van hoe
 
 Ik vond het responsiveness doen en goeie media querys en het product mooi responsive maken heel moeilijk
 
-<img src="/docs/README-img/menu schetsen.png" width="300" alt="schetsen eerste design">
-<img src="/docs/README-img/menu design.png" width="300" alt="schetsen eerste design">
+<img src="/README-img/menu schetsen.png" width="300" alt="schetsen eerste design">
+<img src="/README-img/menu design.png" width="300" alt="schetsen eerste design">
 
 
 I begon met het schetsen van hoe ik de pagina zou willen en was mijn hoofd aan het kraken over hoe je die grid in elkaar moest zetten. Ik heb zooo lang niet zo zitten berekenen. Uiteindelijk kwam ik door css grid opzoeken al een stuk verder en met een beetje cgpt vragen kwam ik er goed achter hoe dat werkt.
 
-<img src="/docs/README-img/design enu.png" width="300" alt="eerste design website">
+<img src="/README-img/design enu.png" width="300" alt="eerste design website">
 
 ## Dag 4
 Nadat ik mijn design helemaal af had Met html en css en bijna wilde beginnen aan de Data dingen, was ik helemaal niet zo tevreden met mijn product dus wilde ik eingelijk helemaal opnieuw beginnen. 
 
 Ik had opnieuw een schets gemaakt en begon meteen aan mijn code, omdat ik bang was dat ik tijd te kort zou hebben. Met combinatie van de team app en de persoonlijke. (hier in ongeveer waar mijn panniek begon) 
 
-<img src="/docs/README-img/cd design.png" width="300" alt="ruw ontwerp van eindproduct">
-<img src="/docs/README-img/binnen cd design.png" width="300" alt="ruw ontwerp eindproduct">
+<img src="/README-img/cd design.png" width="300" alt="ruw ontwerp van eindproduct">
+<img src="/README-img/binnen cd design.png" width="300" alt="ruw ontwerp eindproduct">
 
 
 
@@ -66,16 +66,16 @@ Het fetchen van de informatie zoals SONG en ARTIST ging soepel...
 
 alleen toen ik wilde dat het ging afspelen en de cover foto van de cd veranderen kwamen er veel complicaties. 
 Ik dacht even heel simple om een function te maken om de foto van de cd naar de album cover te veranderen en vervolgens het liedje af te spelen. Dit werkte niet omdat ik nu zie dat ik de audioplayer niet eens goed heb gelinked
-<img src="/docs/README-img/proberen eind werkt niet.png" width="300" alt="code">
+<img src="/README-img/proberen eind werkt niet.png" width="300" alt="code">
 
 Uiteindelijk werkte de audio player wel nadat ik de json file element goed met appendChild heb gelinked en de aidio player de url laten fetchen om deze vervolgens te spelen. Alleen in de function wil ik ook dat de cover foto veranderd dus ik ging op cgpt vragen hoe dat kan en waarom mijn oude niet werkte en ik kreeg dit: 
 
-<img src="/docs/README-img/audio werkt, foto niet.png" width="300" alt="code">
+<img src="/README-img/audio werkt, foto niet.png" width="300" alt="code">
 
 de foto bleef maar niet veranderen dus ik ging even nakijken wat het probleem was... ben ik dit niet goed aan het linken of ben ik de code fout aan het schrijven? dus ik wilde een messege in de console voor als de coverurl niet available is... en dat was natuurlijk ook het probleem.
 
-<img src="/docs/README-img/cove foto error code.png" width="300" alt="code">
-<img src="/docs/README-img/cove foto error code.png" width="300" alt="error code">
+<img src="/README-img/cove foto error code.png" width="300" alt="code">
+<img src="/README-img/cove foto error code.png" width="300" alt="error code">
 
 Ik kreeg veel error van de cover foto omdat "deze niet available is" 
 
@@ -83,7 +83,7 @@ Ik kreeg veel error van de cover foto omdat "deze niet available is"
 Ik liet dat probleem even aan de kant...
 Ik heb gerealiseert dat mijn design helemaal niet responsive was en op mobiele versie echt helemaal lelijk was. 
 
-<img src="/docs/README-img/foto error responsiveness.png" width="300" alt="mobile version">
+<img src="/README-img/foto error responsiveness.png" width="300" alt="mobile version">
 
 Dus veel van mijn ochtend werd besteed aan px,em,vw etc te veranderen en steeds blijven testen. Ik heb daarna veel met media queries moeten werken om deze er een beetje fatsoenlijk uit te laten zien
 
@@ -92,12 +92,17 @@ Dus veel van mijn ochtend werd besteed aan px,em,vw etc te veranderen en steeds 
 ## Dag 8 
 Ik heb gisteren niks kunnen maken met mijn media queries.. het werd me gewoon iets te moeilijk.
 
-<img src="/docs/README-img/media querys.png" width="300" alt="code">
-<img src="/docs/README-img/media photo.png" width="300" alt="mobile version lelijk">
+<img src="/README-img/media querys.png" width="300" alt="code">
+<img src="/README-img/media photo.png" width="300" alt="mobile version lelijk">
 
 Ik ging proberen te werken met de aspect ratioen veel procenten
 Ik merkte ook dat ik heel veel extra elementen had die over elkaar waren e mij in de weg zat van designen. 
-Het is gelukt met percentages en procenten om het product responsive te maken
+Het is gelukt met percentages en procenten om het product responsive te maken alleen de ul niet... dus ipv de tranlate code die ik doe ga ik dit even met eem grid oplossen
+
+<img src="/README-img/ratio.png" width="300" alt="code">
+<img src="/README-img/translate.png" width="300" alt="code">
+<img src="/docs/README-img/media querys.png" width="300" alt="code">
+
 
 Mijn enige struggle on is dat ik de coverfoto van de cd wil veranderen wanner het liedje speelt.. alleen in krijg steeds de warning dat de coverurl niet available is. Ik weet niet hoe ik dit verder moet oplossen dus heb het gewoon zo gelaten
 
